@@ -1,5 +1,3 @@
-import javax.print.DocFlavor;
-
 public abstract class Character {
 
     Room room;
@@ -7,9 +5,7 @@ public abstract class Character {
     /*
     * Move characters around a room on a specific floor
     */
-    public void move(Floor floor) {
-
-    }
+    public abstract void move();
 
     public String toString(){
         return "";
