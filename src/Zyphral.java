@@ -4,19 +4,30 @@ public class Zyphral extends Creature{
     // randomly move between rooms on the floor
     // won't move if an adventurer is present
 
-    Room roomZ;
-    int row = (int)Math.random()*3 + 1;
-    int col = (int)Math.random()*3 + 1;
-
-    public Zyphral(){
-        roomZ = new Room(row,col);
-        if(roomZ.adventurers.size() == 0) {
-            move();
-        }
+    public String toString() {
+        return "Z";
     }
 
+
+    public Zyphral(Room room){
+        this.room = room;
+        room.creatures.add(this);
+    }
+
+    @Override
     public void move(){
-        roomZ.getRandomAdjacentRoom();
+        Floor floor = room.floor;
+        for (Room[] row : floor.rooms) {
+            for (Room r : row) {
+                if (!r.adventurers.isEmpty()) {
+                    return;
+                }
+            }
+        }
+        Room r = room.getRandomAdjacentRoom(false);
+        room.creatures.remove(this);
+        room = r;
+        room.creatures.add(this);
     }
 
 }

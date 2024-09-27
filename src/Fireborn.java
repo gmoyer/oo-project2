@@ -6,23 +6,31 @@ public class Fireborn extends Creature{
 
     //move in the fire floor, clockwise or counterclockwise
     //Won't move if an adventurer is on floor
-    Room roomF;
-    int row = (int)Math.random()*3 + 1;
-    int col = (int)Math.random()*3 + 1;
-    public Fireborn() {
-        // spawn a new fireborn creature
-        // pick a random room on the fire floor
+    public Fireborn(Room room) {
+        this.room = room;
+        room.creatures.add(this);
+    }
 
-        roomF = new Room(row, col);
-        if(roomF.adventurers.size() == 0) {
-            move();
-        }
+    public String toString() {
+        return "F";
     }
 
     @Override
     public void move() {
-            //move to adjacent room -- counter/clockwise
-            roomF.getAdjacentRoom(row, col);
-
+        int newRow = room.row;
+        int newCol = room.col;
+        if (room.row == 0 && room.col > 0) {
+            newCol = room.col - 1;
+        } else if (room.col == 0 && room.row < 2) {
+            newRow = room.row + 1;
+        } else if (room.row == 2 && room.col < 2) {
+            newCol = room.col + 1;
+        } else {
+            newRow = room.row - 1;
+        }
+        Room r = room.getAdjacentRoom(newRow, newCol);
+        room.creatures.remove(this);
+        room = r;
+        room.creatures.add(this);
     }
 }

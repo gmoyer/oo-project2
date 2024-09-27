@@ -2,13 +2,14 @@ import javax.swing.text.Element;
 
 public class Floor {
     public Room[][] rooms = new Room[3][3];
-    private final ElementType elementType;
+    public final ElementType elementType;
+    public Dungeon dungeon;
 
     public Floor(ElementType elementType) {
         this.elementType = elementType;
         for (int row = 0; row < rooms.length; row++) {
             for (int col = 0; col < rooms[row].length; col++) {
-                rooms[row][col] = new Room(row, col, elementType);
+                rooms[row][col] = new Room(this, row, col, elementType, false);
             }
         }
 
@@ -29,6 +30,13 @@ public class Floor {
             }
         }
     }
+
+    public Room getRandomRoom() {
+        int row = (int)(Math.random() * rooms.length);
+        int col = (int)(Math.random() * rooms[row].length);
+        return rooms[row][col];
+    }
+
     @Override
     public String toString() {
         StringBuilder out = new StringBuilder();

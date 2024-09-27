@@ -1,16 +1,29 @@
 public class ZypherRogue extends Adventurer{
-    private int health = 3;
-    private float dodgeChance = 0.25F;
-    private int treasures = 0;
-    private ElementType resonance = ElementType.AIR;
-    private ElementType discord = ElementType.EARTH;
     public String toString() {
         return "ZR";
     }
 
+    public ZypherRogue(Room room){
+        this.room = room;
+        room.adventurers.add(this);
+
+        health = 3;
+        dodgeChance = 0.25;
+        resonance = ElementType.AIR;
+        discord = ElementType.EARTH;
+    }
+
     @Override
-    public void searchTreasure(Room room) {
-        int roll = diceRollGenerator();
+    public void move() {
+        Room r = room.getRandomAdjacentRoom(true);
+        room.adventurers.remove(this);
+        room = r;
+        room.adventurers.add(this);
+    }
+
+    @Override
+    public int searchTreasure() {
+        int roll = roll();
         if(room.elementType.equals(resonance)){
             roll += 2;
         }
@@ -18,60 +31,24 @@ public class ZypherRogue extends Adventurer{
             roll -= 2;
         }
 
-        if(Integer.compare(roll,11) == 0){
-            System.out.println("Adventurer found TREASURE!");
-            addTreasures(1);
+        if(roll >= 11){
+            treasures++;
+            return 1;
         }
-        else{
-            System.out.println("No treasure was found");
-        }
-
+        return 0;
     }
 
-    @Override
-    public void combat(Creature creature, Room room) {
-        int playerRoll = 5;//diceRollgenerator();
-        int creatureRoll = 8;//diceRollgenerator();
-        if(Integer.compare(playerRoll,creatureRoll) == 1){
-            //Adventurer wins and creature gets removed because of lost
-            System.out.println("Adventurer Wins!");
-            //creature.remove();
-            System.out.println("Creature Removed");
+    public void combat(Creature creature) {
+        int playerRoll = roll();
+        int creatureRoll = roll();
+        if (playerRoll > creatureRoll){
+            creature.dead = true;
         }
-        else if (Integer.compare(playerRoll,creatureRoll) == -1){
-            System.out.println("Creature Wins");
-            System.out.println("Adventure has a dodge chance!");
-            boolean dodge = dodgeSuccess(dodgeChance);
-            if (Boolean.compare(dodge,true) == 0){
-                System.out.println("Dodge Success. Creature missed");
-            }
-            else {
-                System.out.println("Dodge Failed!. Creature hit adventure!");
-                removeHealth(2);
-                boolean healthCheck = checkHealth();
-                if(Boolean.compare(healthCheck,true) == 0){
-                    //remove adventurer
-                    System.out.println("Adventure took to much damage! Adventure dies!");
-                }
+        else if (playerRoll < creatureRoll){
+            if (dodgeFailure(dodgeChance)){
+                health -= 2;
             }
         }
-        else {
-            System.out.println("Adventure and Creature tied nothing happens.");
-        }
-    }
-
-    @Override
-    public int getHealth() {
-        return health;
-    }
-
-    @Override
-    public void removeHealth(int hit) {
-        health-=hit;
-    }
-    @Override
-    public float getDodgeChance(){
-        return dodgeChance;
     }
 
 }

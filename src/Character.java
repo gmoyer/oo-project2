@@ -1,7 +1,5 @@
-import java.util.Random;
-
 public abstract class Character {
-    Room room;
+    public Room room;
 
     /*
     * Move characters around a room on a specific floor
@@ -12,10 +10,9 @@ public abstract class Character {
         return "";
     }
 
-    public int diceRollGenerator(){
-        Random random = new Random();
-        int roll1 = 5;//random.nextInt(1,6);
-        int roll2 = 6;//random.nextInt(1,6);
+    public int roll(){
+        int roll1 = (int)(Math.random() * 6) + 1;
+        int roll2 = (int)(Math.random() * 6) + 1;
         return roll1+roll2;
     }
 

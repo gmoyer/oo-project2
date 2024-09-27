@@ -3,26 +3,33 @@ import java.util.ArrayList;
 public class Room {
     public int row;
     public int col;
+    public boolean startingRoom;
 
+    public Floor floor;
     public ElementType elementType;
-    private final ArrayList<Room> adjacentRooms = new ArrayList<Room>();
+    public final ArrayList<Room> adjacentRooms = new ArrayList<Room>();
     public ArrayList<Adventurer> adventurers = new ArrayList<Adventurer>();
     public ArrayList<Creature> creatures = new ArrayList<Creature>();
 
-    public Room(int row, int col, ElementType elementType) {
+    public Room(Floor floor, int row, int col, ElementType elementType, boolean startingRoom) {
+        this.floor = floor;
         this.elementType = elementType;
         this.row = row;
         this.col = col;
-
+        this.startingRoom = startingRoom;
     }
 
     public void addAdjacentRoom(Room room) {
         adjacentRooms.add(room);
     }
 
-    public Room getRandomAdjacentRoom() {
+    public Room getRandomAdjacentRoom(boolean includeStartingRoom) {
         int randomIndex = (int)(Math.random() * adjacentRooms.size());
-        return adjacentRooms.get(randomIndex);
+        if (!includeStartingRoom && adjacentRooms.get(randomIndex).startingRoom) {
+            return getRandomAdjacentRoom(false);
+        } else {
+            return adjacentRooms.get(randomIndex);
+        }
     }
 
     public Room getAdjacentRoom(int row, int col) {

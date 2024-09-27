@@ -1,77 +1,52 @@
 public class TerraVoyager extends Adventurer{
-    private int health = 7;
-    private float dodgeChance = 0.1F;
-    private int treasures;
-    private ElementType resonance = ElementType.EARTH;
-    private ElementType discord = ElementType.FIRE;
     public String toString() {
         return "TV";
     }
 
-    @Override
-    public void searchTreasure(Room room) {
-        int roll = diceRollGenerator();
-        if(Integer.compare(roll,11) == 0){
-            System.out.println("Adventurer found TREASURE!");
-            addTreasures(1);
-        }
-        else{
-            System.out.println("No treasure was found");
-        }
+    public TerraVoyager(Room room){
+        this.room = room;
+        room.adventurers.add(this);
+
+        health = 7;
+        dodgeChance = 0.1;
+        resonance = ElementType.EARTH;
+        discord = ElementType.FIRE;
     }
 
     @Override
-    public void combat(Creature creature, Room room) {
-        int playerRoll = 5;//diceRollgenerator();
-        int creatureRoll = 8;//diceRollgenerator();
-        if(Integer.compare(playerRoll,creatureRoll) == 1){
-            //Adventurer wins and creature gets removed because of lost
-            System.out.println("Adventurer Wins!");
-            //creature.remove();
-            System.out.println("Creature Removed");
-        }
-        else if (Integer.compare(playerRoll,creatureRoll) == -1){
-            System.out.println("Creature Wins");
-            System.out.println("Adventure has a dodge chance!");
-            boolean dodge = dodgeSuccess(dodgeChance);
-            if (Boolean.compare(dodge,true) == 0){
-                System.out.println("Dodge Success. Creature missed");
-            }
-            else {
-                System.out.println("Dodge Failed!. Creature hit adventure!");
-                if(room.elementType.equals(resonance)){
-                    removeHealth(1);
-                }
-                else if(room.elementType.equals(discord)){
-                    removeHealth(3);
-                }else{
-                    removeHealth(2);
-                }
+    public void move() {
+        Room r = room.getRandomAdjacentRoom(true);
+        room.adventurers.remove(this);
+        room = r;
+        room.adventurers.add(this);
+    }
 
-                boolean healthCheck = checkHealth();
-                if(Boolean.compare(healthCheck,true) == 0){
-                    //remove adventurer
-                    System.out.println("Adventure took to much damage! Adventure dies!");
+    @Override
+    public int searchTreasure() {
+        if(roll() >= 11){
+            treasures++;
+            return 1;
+        }
+        return 0;
+    }
+
+    @Override
+    public void combat(Creature creature) {
+        int playerRoll = roll();
+        int creatureRoll = roll();
+        if (playerRoll > creatureRoll){
+            creature.dead = true;
+        }
+        else if (playerRoll < creatureRoll){
+            if (dodgeFailure(dodgeChance)){
+                if(room.elementType==resonance){
+                    health -= 1;
+                }
+                else if(room.elementType == discord){
+                    health -= 3;
                 }
             }
         }
-        else {
-            System.out.println("Adventure and Creature tied nothing happens.");
-        }
-    }
-
-    @Override
-    public int getHealth() {
-        return health;
-    }
-
-    @Override
-    public void removeHealth(int hit) {
-        health-=hit;
-    }
-    @Override
-    public float getDodgeChance(){
-        return dodgeChance;
     }
 
 }
