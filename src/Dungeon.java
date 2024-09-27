@@ -12,7 +12,7 @@ public class Dungeon {
     public Dungeon() {
 
         // Set up the floors
-        startingRoom = new Room(1, 1);
+        startingRoom = new Room(1, 1,ElementType.AIR);
         for (int i = 0; i < floors.length; i++) {
             floors[i] = new Floor(ElementType.values()[i]);
 

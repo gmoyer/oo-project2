@@ -8,7 +8,7 @@ public class Floor {
         this.elementType = elementType;
         for (int row = 0; row < rooms.length; row++) {
             for (int col = 0; col < rooms[row].length; col++) {
-                rooms[row][col] = new Room(row, col);
+                rooms[row][col] = new Room(row, col, elementType);
             }
         }
 
