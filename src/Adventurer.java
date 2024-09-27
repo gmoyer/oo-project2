@@ -8,58 +8,40 @@ public abstract class Adventurer extends Character {
     private ElementType resonance;
     private ElementType discord;
 
-    public void search(Floor floor){
+    public abstract void searchTreasure(Room room);
 
-    }
-    /*
-    public void combat(Creature creature){
-        Random rand = new Random();
-        int advRoll = 0;
-        int creRoll = 0;
-        for (int i = 0; i < 2; i++) {
-            int s1 = rand.nextInt(1,6);
-            int s2 = 6;//rand.nextInt(1,6);
-            advRoll = advRoll + s1;
-            creRoll = creRoll + s2;
-        }
-        System.out.println("Adventurer: " + advRoll);
-        System.out.println("Creature: " + creRoll);
-        if(advRoll < creRoll){
-            System.out.println("Adventurer Lost!");
-            System.out.println("Stand by for dodge chance");
-            boolean hit = dodgeSuccess(dodgeChance);
-            System.out.println(hit);
-            if(hit == true){
-                System.out.println("Adventurer gets hit and loses life");
-            }else {
-                System.out.println("Adventurer Survives");
-            }
-        }else if(advRoll > creRoll) {
-            System.out.println("Adventurer Wins!");
-            System.out.println("Creature Dies");
-        }else {
-            System.out.println("Nothing Happened!");
-        }
-
-    }
+    public abstract void combat(Creature creature, Room room);
     public boolean dodgeSuccess(float dodgeChance){
         Random random = new Random();
-        float numerator = dodgeChance*100;
+        float numerator = dodgeChance * 100;
         int denominator = 100;
-        float chance = random.nextInt(1,denominator);
-        if(chance < numerator){
+        float chance = random.nextInt(denominator);
+        if(chance > numerator){
             return false;
         }else {
             return true;
         }
     }
-
-     */
     public int getTreasures(){
-        return 100;
+        return treasures;
     }
-
-
-
+    public abstract int getHealth();
+    public void addTreasures(int treasures){
+        this.treasures += treasures;
+    }
+    //Theres a bug in checkHealth, sometimes it works others it doesn't
+    public boolean checkHealth(){
+        if(Integer.compare(health,0) == -1){
+            return true;
+        }
+        else if (Integer.compare(health,0)==0){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    public abstract void removeHealth(int hit);
+    public abstract float getDodgeChance();
 
 }

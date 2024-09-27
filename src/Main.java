@@ -6,11 +6,32 @@ public class Main {
         dungeon.floors[0].rooms[1][1].creatures.add(new Terravore());
         dungeon.floors[0].rooms[1][1].creatures.add(new Terravore());
         System.out.println(dungeon);
-        Adventurer ad1 = new MistWalker();
-        for (int i = 0; i < 5; i++) {
-            ad1.combat(new Terravore());
-        }
-        //ad1.combat(new Terravore());
-        //System.out.println(ad1.dodgeSuccess(0.1F));
+
+        Adventurer ad1 = new TerraVoyager();
+        Adventurer ad2 = new MistWalker();
+
+        System.out.println(dungeon.floors[0].rooms[0][0].elementType);
+        ad1.combat(new Terravore(),dungeon.floors[0].rooms[0][0]);
+        System.out.println(ad1.getHealth());
+        //System.out.println(ad1.getDodgeChance());
+        System.out.println();
+
+        System.out.println(dungeon.floors[1].rooms[0][0].elementType);
+        ad1.combat(new Terravore(),dungeon.floors[1].rooms[0][0]);
+        System.out.println(ad1.getHealth());
+        //System.out.println(ad1.getDodgeChance());
+        System.out.println();
+        System.out.println(dungeon.floors[2].rooms[0][0].elementType);
+        ad1.combat(new Terravore(),dungeon.floors[2].rooms[0][0]);
+        System.out.println(ad1.getHealth());
+        //System.out.println(ad1.getDodgeChance());
+        System.out.println();
+        System.out.println(dungeon.floors[3].rooms[0][0].elementType);
+        ad1.combat(new Terravore(),dungeon.floors[3].rooms[0][0]);
+        System.out.println(ad1.getHealth());
+        //System.out.println(ad1.getDodgeChance());
+
+
+
     }
 }
