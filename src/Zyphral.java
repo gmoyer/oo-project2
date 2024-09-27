@@ -1,8 +1,5 @@
 public class Zyphral extends Creature{
-
-    //move on air floor
-    // randomly move between rooms on the floor
-    // won't move if an adventurer is present
+    // This class is an example of inheritance. It inherits Creature since it is a specific type of creature
 
     public String toString() {
         return "Z";
@@ -11,9 +8,11 @@ public class Zyphral extends Creature{
 
     public Zyphral(Room room){
         this.room = room;
+        //This is an example of identity. Adding a creature to the list of creatures in the room
         room.creatures.add(this);
     }
 
+    // This is an example of polymorphism since we are overriding the move function from the class Character
     @Override
     public void move(){
         Floor floor = room.floor;

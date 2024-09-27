@@ -7,6 +7,8 @@ public class Dungeon {
     public ArrayList<Adventurer> adventurers = new ArrayList<Adventurer>();
     public ArrayList<Creature> creatures = new ArrayList<Creature>();
 
+    // This is an example of encapsulation since we are making sure no one can see
+    // our turn number and total treasures
     private int turn = 0;
     private int totalTreasures = 0;
 

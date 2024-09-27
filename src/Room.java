@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+//This is an example of cohesion because this class only deals with the rooms in the floors and nothing else
+
 public class Room {
     public int row;
     public int col;
