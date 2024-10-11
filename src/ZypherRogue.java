@@ -1,3 +1,5 @@
+import Treasure.EmptyTreasureBag;
+
 public class ZypherRogue extends Adventurer{
     public String toString() {
         return "ZR";
@@ -11,6 +13,7 @@ public class ZypherRogue extends Adventurer{
         dodgeChance = 0.25;
         resonance = ElementType.AIR;
         discord = ElementType.EARTH;
+        treasureBag = new EmptyTreasureBag();
     }
 
     @Override
@@ -22,7 +25,7 @@ public class ZypherRogue extends Adventurer{
     }
 
     @Override
-    public int searchTreasure() {
+    public void searchTreasure() {
         int roll = roll();
         if(room.elementType.equals(resonance)){
             roll += 2;
@@ -31,16 +34,14 @@ public class ZypherRogue extends Adventurer{
             roll -= 2;
         }
 
-        if(roll >= 11){
-            treasures++;
-            return 1;
+        if(roll >= 11 + treasureBag.searchBonus()){
+            takeTreasure();
         }
-        return 0;
     }
 
     public void combat(Creature creature) {
-        int playerRoll = roll();
-        int creatureRoll = roll();
+        int playerRoll = roll() + treasureBag.combatBonus();
+        int creatureRoll = roll() - treasureBag.armorBonus() + treasureBag.creatureBonus();
         if (playerRoll > creatureRoll){
             creature.dead = true;
         }

@@ -1,3 +1,5 @@
+import Treasure.EmptyTreasureBag;
+
 public class EmberKnight extends Adventurer {
     public String toString() {
         return "EK";
@@ -11,6 +13,7 @@ public class EmberKnight extends Adventurer {
         resonance = ElementType.FIRE;
         discord = ElementType.WATER;
         health = 5;
+        treasureBag = new EmptyTreasureBag();
     }
 
     @Override
@@ -22,18 +25,16 @@ public class EmberKnight extends Adventurer {
     }
 
     @Override
-    public int searchTreasure() {
-        if(roll() >= 11){
-            treasures++;
-            return 1;
+    public void searchTreasure() {
+        if(roll() >= 11 + treasureBag.searchBonus()){
+            takeTreasure();
         }
-        return 0;
     }
 
     @Override
     public void combat(Creature creature) {
-        int playerRoll = roll();
-        int creatureRoll = roll();
+        int playerRoll = roll() + treasureBag.combatBonus();
+        int creatureRoll = roll() - treasureBag.armorBonus() + treasureBag.creatureBonus();
         if(room.elementType==resonance){
             playerRoll += 2;
         }

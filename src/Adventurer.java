@@ -1,18 +1,26 @@
+import Treasure.TreasureBag;
+
 public abstract class Adventurer extends Character {
     public int health;
     public double dodgeChance;
-    public int treasures = 0;
     public ElementType resonance;
     public ElementType discord;
+    protected TreasureBag treasureBag;
 
-    public abstract int searchTreasure();
+    public abstract void searchTreasure();
+    public void takeTreasure() {
+        if (room.treasure != null) {
+            treasureBag = room.treasure.newBag(treasureBag);
+            room.treasure = null;
+        }
+    }
 
     public abstract void combat(Creature creature);
     public boolean dodgeFailure(double dodgeChance){
-        return !(Math.random() < dodgeChance);
+        return !(Math.random() < dodgeChance + treasureBag.dodgeBonus());
     }
     public boolean isDead(){
-        return health <= 0;
+        return health + treasureBag.healthBonus() <= 0;
     }
 
 }

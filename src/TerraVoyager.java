@@ -1,3 +1,5 @@
+import Treasure.EmptyTreasureBag;
+
 public class TerraVoyager extends Adventurer{
     public String toString() {
         return "TV";
@@ -11,6 +13,7 @@ public class TerraVoyager extends Adventurer{
         dodgeChance = 0.1;
         resonance = ElementType.EARTH;
         discord = ElementType.FIRE;
+        treasureBag = new EmptyTreasureBag();
     }
 
     @Override
@@ -22,18 +25,16 @@ public class TerraVoyager extends Adventurer{
     }
 
     @Override
-    public int searchTreasure() {
-        if(roll() >= 11){
-            treasures++;
-            return 1;
+    public void searchTreasure() {
+        if(roll() >= 11 + treasureBag.searchBonus()){
+            takeTreasure();
         }
-        return 0;
     }
 
     @Override
     public void combat(Creature creature) {
-        int playerRoll = roll();
-        int creatureRoll = roll();
+        int playerRoll = roll() + treasureBag.combatBonus();
+        int creatureRoll = roll() - treasureBag.armorBonus() + treasureBag.creatureBonus();
         if (playerRoll > creatureRoll){
             creature.dead = true;
         }
