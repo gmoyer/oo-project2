@@ -1,3 +1,5 @@
+import Treasure.EmptyTreasureBag;
+
 public class MistWalker extends Adventurer{
     public String toString() {
         return "MW";
@@ -11,6 +13,9 @@ public class MistWalker extends Adventurer{
         dodgeChance = 0.5;
         resonance = ElementType.WATER;
         discord = ElementType.AIR;
+        treasureBag = new EmptyTreasureBag();
+        combatExpertise = new Novice();
+        searchExpertise = new Novice();
     }
 
     @Override
@@ -22,20 +27,19 @@ public class MistWalker extends Adventurer{
     }
 
     @Override
-    public int searchTreasure() {
-        if(roll() >= 11){
-            treasures++;
-            return 1;
+    public void searchTreasure() {
+        if(roll()+ treasureBag.searchBonus() + searchExpertise.bonus() >= 11 ){
+            takeTreasure();
         }
-        return 0;
     }
 
     @Override
     public void combat(Creature creature) {
-        int playerRoll = roll();
-        int creatureRoll = roll();
+        int playerRoll = roll() + treasureBag.combatBonus() + combatExpertise.bonus();
+        int creatureRoll = roll() - treasureBag.armorBonus() + treasureBag.creatureBonus();
         if (playerRoll > creatureRoll){
             creature.dead = true;
+            combatExpertise = combatExpertise.levelUp();
         }
         else if (playerRoll < creatureRoll){
             double dc = dodgeChance;

@@ -1,3 +1,5 @@
+import Treasure.Treasure;
+
 import java.util.ArrayList;
 
 //This is an example of cohesion because this class only deals with the rooms in the floors and nothing else
@@ -12,6 +14,8 @@ public class Room {
     public final ArrayList<Room> adjacentRooms = new ArrayList<Room>();
     public ArrayList<Adventurer> adventurers = new ArrayList<Adventurer>();
     public ArrayList<Creature> creatures = new ArrayList<Creature>();
+
+    public Treasure treasure;
 
     public Room(Floor floor, int row, int col, ElementType elementType, boolean startingRoom) {
         this.floor = floor;

@@ -1,3 +1,12 @@
+import Treasure.Sword;
+import Treasure.Shield;
+import Treasure.Potion;
+import Treasure.Glasses;
+import Treasure.Gem;
+import Treasure.Elixir;
+
+import Treasure.Treasure;
+
 import java.util.ArrayList;
 
 public class Dungeon {
@@ -10,7 +19,6 @@ public class Dungeon {
     // This is an example of encapsulation since we are making sure no one can see
     // our turn number and total treasures
     private int turn = 0;
-    private int totalTreasures = 0;
 
     public Dungeon() {
 
@@ -48,6 +56,26 @@ public class Dungeon {
             }
         }
 
+        // Add treasures to the floors
+        for (int i = 0; i < 4; i++) {
+            addTreasureToRandomRoom(new Sword());
+        }
+        for (int i = 0; i < 4; i++) {
+            addTreasureToRandomRoom(new Shield());
+        }
+        for (int i = 0; i < 4; i++) {
+            addTreasureToRandomRoom(new Potion());
+        }
+        for (int i = 0; i < 4; i++) {
+            addTreasureToRandomRoom(new Glasses());
+        }
+        for (int i = 0; i < 4; i++) {
+            addTreasureToRandomRoom(new Elixir());
+        }
+        for (int i = 0; i < 15; i++) {
+            addTreasureToRandomRoom(new Gem());
+        }
+
         // Set up the adventurers
         adventurers.add(new EmberKnight(startingRoom));
         adventurers.add(new ZypherRogue(startingRoom));
@@ -64,7 +92,25 @@ public class Dungeon {
             System.out.println(this);
 
             // Check if the adventurers won
-            if (creatures.isEmpty() || totalTreasures >= 50) {
+
+            // Check total value condition
+            int totalValue = 0;
+            for (Adventurer adventurer : adventurers) {
+                totalValue += adventurer.treasureBag.getValue();
+            }
+            // Check treasure left condition
+            boolean treasureLeft = false;
+            for (Floor floor : floors) {
+                for (Room[] row : floor.rooms) {
+                    for (Room room : row) {
+                        if (room.treasure != null) {
+                            treasureLeft = true;
+                            break;
+                        }
+                    }
+                }
+            }
+            if (creatures.isEmpty() || totalValue >= 15000 || !treasureLeft) {
                 adventurersWon = true;
             }
 
@@ -97,7 +143,7 @@ public class Dungeon {
         // Resolve any conflicts
         for (Adventurer adventurer : adventurers) {
             if (adventurer.room.creatures.isEmpty()) {
-                totalTreasures += adventurer.searchTreasure();
+                adventurer.searchTreasure();
             } else {
                 for (Creature creature : adventurer.room.creatures) {
                     adventurer.combat(creature);
@@ -107,7 +153,7 @@ public class Dungeon {
 
         // See if anyone died
         for (int i = adventurers.size() - 1; i >= 0; i--) {
-            if (adventurers.get(i).health <= 0) {
+            if (adventurers.get(i).isDead()) {
                 adventurers.get(i).room.adventurers.remove(adventurers.get(i));
                 adventurers.remove(i);
             }
@@ -118,6 +164,16 @@ public class Dungeon {
                 creatures.get(i).room.creatures.remove(creatures.get(i));
                 creatures.remove(i);
             }
+        }
+    }
+
+    public void addTreasureToRandomRoom(Treasure treasure) {
+        Floor floor = floors[(int)(Math.random() * floors.length)];
+        Room room = floor.getRandomRoom();
+        if (room.treasure == null) {
+            room.treasure = treasure;
+        } else {
+            addTreasureToRandomRoom(treasure);
         }
     }
 
@@ -136,13 +192,14 @@ public class Dungeon {
 
         // Print the adventurers
         for (Adventurer adventurer : adventurers) {
-            out.append(adventurer.toString())
-                    .append(" - ")
-                    .append(adventurer.treasures)
-                    .append(" Treasure(s) - ")
-                    .append(adventurer.health)
-                    .append(" health remaining\n");
+            out.append("--- ").append(adventurer.toString()).append(" ---\n")
+                    .append("Treasure Bag: ").append(adventurer.treasureBag).append("\n")
+                    .append("Treasure Value: ").append(adventurer.treasureBag.getValue()).append("\n")
+                    .append("Combat Expertise: ").append(adventurer.combatExpertise)
+                    .append(", Search Expertise: ").append(adventurer.searchExpertise).append("\n")
+                    .append("Health remaining: ").append(adventurer.health + adventurer.treasureBag.healthBonus()).append("\n");
         }
+        out.append("\n");
 
         // Print the count of each creature
         int fireborn = 0;
