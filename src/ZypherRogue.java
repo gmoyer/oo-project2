@@ -14,6 +14,8 @@ public class ZypherRogue extends Adventurer{
         resonance = ElementType.AIR;
         discord = ElementType.EARTH;
         treasureBag = new EmptyTreasureBag();
+        combatExpertise = new Novice();
+        searchExpertise = new Novice();
     }
 
     @Override
@@ -34,16 +36,17 @@ public class ZypherRogue extends Adventurer{
             roll -= 2;
         }
 
-        if(roll >= 11 + treasureBag.searchBonus()){
+        if(roll+ treasureBag.searchBonus() + searchExpertise.bonus() >= 11 ){
             takeTreasure();
         }
     }
 
     public void combat(Creature creature) {
-        int playerRoll = roll() + treasureBag.combatBonus();
+        int playerRoll = roll() + treasureBag.combatBonus() + combatExpertise.bonus();
         int creatureRoll = roll() - treasureBag.armorBonus() + treasureBag.creatureBonus();
         if (playerRoll > creatureRoll){
             creature.dead = true;
+            combatExpertise = combatExpertise.levelUp();
         }
         else if (playerRoll < creatureRoll){
             if (dodgeFailure(dodgeChance)){

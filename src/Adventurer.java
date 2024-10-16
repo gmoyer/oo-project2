@@ -1,6 +1,8 @@
 import Treasure.TreasureBag;
 
 public abstract class Adventurer extends Character {
+    Expertise combatExpertise;
+    Expertise searchExpertise;
     public int health;
     public double dodgeChance;
     public ElementType resonance;
@@ -12,6 +14,7 @@ public abstract class Adventurer extends Character {
         if (room.treasure != null) {
             treasureBag = room.treasure.newBag(treasureBag);
             room.treasure = null;
+            searchExpertise = searchExpertise.levelUp();
         }
     }
 

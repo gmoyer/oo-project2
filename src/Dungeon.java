@@ -195,6 +195,8 @@ public class Dungeon {
             out.append("--- ").append(adventurer.toString()).append(" ---\n")
                     .append("Treasure Bag: ").append(adventurer.treasureBag).append("\n")
                     .append("Treasure Value: ").append(adventurer.treasureBag.getValue()).append("\n")
+                    .append("Combat Expertise: ").append(adventurer.combatExpertise)
+                    .append(", Search Expertise: ").append(adventurer.searchExpertise).append("\n")
                     .append("Health remaining: ").append(adventurer.health + adventurer.treasureBag.healthBonus()).append("\n");
         }
         out.append("\n");
