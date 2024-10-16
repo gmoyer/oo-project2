@@ -1,6 +1,8 @@
-public abstract class Character {
-    //This is an example of abstraction. This class is abstract so we can implement our different types
-    // of characters we have
+import java.util.ArrayList;
+
+public abstract class Character implements Subject {
+    ArrayList<Observer> observers = new ArrayList<Observer>();
+
     public Room room;
 
     /*
@@ -17,6 +19,44 @@ public abstract class Character {
         int roll1 = (int)(Math.random() * 6) + 1;
         int roll2 = (int)(Math.random() * 6) + 1;
         return roll1+roll2;
+    }
+    @Override
+    public void registerObserver(Observer observer){
+        observers.add(observer);
+    }
+    @Override
+    public void unregisterObserver(Observer observer){
+        observers.remove(observer);
+    }
+    @Override
+    public void notifyRoomChange(Room newRoom){
+        for(Observer observer: observers){
+            observer.updateRoomChange(newRoom);
+        }
+    }
+
+    public void notifyCombatStatus(Adventurer adventurer) {
+
+    }
+
+    public void notifyAdventurerExpertise(Adventurer adventurer) {
+
+    }
+
+    public void notifyAdventurerResonance(ElementType type) {
+
+    }
+
+    public void notifyAdventurerDiscord(ElementType type) {
+
+    }
+
+    public void notifyHealth(Adventurer adventurer) {
+
+    }
+
+    public void notifyCharacterRemove(Character character) {
+
     }
 
 

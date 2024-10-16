@@ -20,6 +20,9 @@ public class Dungeon {
     // our turn number and total treasures
     private int turn = 0;
 
+    private int totalTreasures = 0;
+    public Tracker tracker;
+
     public Dungeon() {
 
         // Set up the floors
@@ -81,6 +84,8 @@ public class Dungeon {
         adventurers.add(new ZypherRogue(startingRoom));
         adventurers.add(new MistWalker(startingRoom));
         adventurers.add(new TerraVoyager(startingRoom));
+
+        tracker= new Tracker(0,4, creatures.size(), adventurers,creatures);
 
     }
 
@@ -165,6 +170,7 @@ public class Dungeon {
                 creatures.remove(i);
             }
         }
+        tracker.display();
     }
 
     public void addTreasureToRandomRoom(Treasure treasure) {
