@@ -8,7 +8,7 @@ public class MistWalker extends Adventurer{
     public MistWalker(Room room){
         this.room = room;
         room.adventurers.add(this);
-
+        maxHealth = 3;
         health = 3;
         dodgeChance = 0.5;
         resonance = ElementType.WATER;

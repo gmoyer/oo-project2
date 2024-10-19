@@ -4,26 +4,26 @@ import Treasure.Potion;
 import Treasure.Glasses;
 import Treasure.Gem;
 import Treasure.Elixir;
-
 import Treasure.Treasure;
-
 import java.util.ArrayList;
 
-public class Dungeon {
+public class Dungeon implements Subject{
     public Room startingRoom;
     public Floor[] floors = new Floor[ElementType.values().length];
 
     public ArrayList<Adventurer> adventurers = new ArrayList<Adventurer>();
     public ArrayList<Creature> creatures = new ArrayList<Creature>();
+    public ArrayList<Observer> observers;
 
     // This is an example of encapsulation since we are making sure no one can see
     // our turn number and total treasures
     private int turn = 0;
-
     private int totalTreasures = 0;
     public Tracker tracker;
+    public Logger logger;
 
     public Dungeon() {
+        observers = new ArrayList<Observer>();
 
         // Set up the floors
         startingRoom = new Room(null, 1, 1,ElementType.AIR, true);
@@ -85,7 +85,10 @@ public class Dungeon {
         adventurers.add(new MistWalker(startingRoom));
         adventurers.add(new TerraVoyager(startingRoom));
 
-        tracker= new Tracker(0,4, creatures.size(), adventurers,creatures);
+        tracker = new Tracker(turn, totalTreasures,4, creatures.size(), adventurers, creatures);
+        logger = new Logger(adventurers, creatures, totalTreasures, 4, creatures.size(), turn);
+        observers.add(tracker); //This is where observers get regisitered
+        observers.add(logger);
 
     }
 
@@ -103,6 +106,7 @@ public class Dungeon {
             for (Adventurer adventurer : adventurers) {
                 totalValue += adventurer.treasureBag.getValue();
             }
+            totalTreasures = totalValue;
             // Check treasure left condition
             boolean treasureLeft = false;
             for (Floor floor : floors) {
@@ -130,6 +134,7 @@ public class Dungeon {
         } else {
             System.out.println("The creatures won!");
         }
+
     }
 
     public void runTurn() {
@@ -170,7 +175,9 @@ public class Dungeon {
                 creatures.remove(i);
             }
         }
+        notifyObserver();
         tracker.display();
+        logger.logWriter();
     }
 
     public void addTreasureToRandomRoom(Treasure treasure) {
@@ -231,5 +238,11 @@ public class Dungeon {
 
 
         return out.toString();
+    }
+    @Override
+    public void notifyObserver() {
+        for(Observer o: observers){
+            o.update(turn,totalTreasures);
+        }
     }
 }

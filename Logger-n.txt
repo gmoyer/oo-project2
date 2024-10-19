@@ -1,0 +1,2321 @@
+Arcane RPG Log:
+------------------------------
+Turn: 1
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in EARTH-1-1 and has room discord
+MW is in FIRE-1-1 and has no resonance or discord with the room
+TV is in WATER-1-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-0
+F is in FIRE-0-1
+F is in FIRE-2-1
+F is in FIRE-1-2
+T is in EARTH-2-2
+T is in EARTH-0-2
+T is in EARTH-1-2
+Z is in AIR-1-0
+Z is in AIR-0-0
+Z is in AIR-1-0
+Z is in AIR-1-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Seasoned and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Novice
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found 
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has in the treasure bag
+
+------------------------------
+Turn: 2
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in AIR-1-1 and has room resonance
+MW is in FIRE-2-1 and has no resonance or discord with the room
+TV is in WATER-1-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-0
+F is in FIRE-0-0
+F is in FIRE-2-2
+F is in FIRE-0-2
+T is in EARTH-2-2
+T is in EARTH-0-2
+T is in EARTH-1-2
+Z is in AIR-0-0
+Z is in AIR-1-0
+Z is in AIR-0-0
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Seasoned and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Novice
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found 
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has in the treasure bag
+
+------------------------------
+Turn: 3
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in FIRE-1-1 and has no resonance or discord with the room
+TV is in WATER-0-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-1
+F is in FIRE-1-0
+F is in FIRE-1-2
+F is in FIRE-0-1
+T is in EARTH-2-2
+T is in EARTH-0-2
+T is in EARTH-1-2
+Z is in AIR-1-0
+Z is in AIR-0-0
+Z is in AIR-0-1
+Z is in AIR-2-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Seasoned and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Novice
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found 
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has in the treasure bag
+
+------------------------------
+Turn: 4
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in AIR-1-1 and has room resonance
+MW is in FIRE-0-1 and has no resonance or discord with the room
+TV is in WATER-1-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-2
+F is in FIRE-2-0
+F is in FIRE-0-2
+F is in FIRE-0-0
+T is in EARTH-2-2
+T is in EARTH-0-2
+T is in EARTH-1-2
+Z is in AIR-2-0
+Z is in AIR-1-0
+Z is in AIR-0-2
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Seasoned and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Novice
+
+Combat:
+Adventurer EK EARTH-1-2 is fighting Creature T EARTH-1-2, adventurer EK lost combat, new health is 3.
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found 
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has in the treasure bag
+
+------------------------------
+Turn: 5
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in FIRE-0-2 and has no resonance or discord with the room
+TV is in WATER-2-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-2
+F is in FIRE-2-1
+F is in FIRE-0-1
+F is in FIRE-1-0
+T is in EARTH-2-2
+T is in EARTH-0-2
+T is in EARTH-1-2
+Z is in AIR-1-0
+Z is in AIR-0-0
+Z is in AIR-0-1
+Z is in AIR-1-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Seasoned and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Elixir
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Elixir in the treasure bag
+
+------------------------------
+Turn: 6
+
+Where the adventures are:
+EK is in EARTH-0-1 and has no resonance or discord with the room
+ZR is in FIRE-0-1 and has no resonance or discord with the room
+MW is in FIRE-0-1 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-2
+F is in FIRE-2-2
+F is in FIRE-0-0
+F is in FIRE-2-0
+T is in EARTH-2-2
+T is in EARTH-0-2
+T is in EARTH-1-2
+Z is in AIR-0-0
+Z is in AIR-1-0
+Z is in AIR-0-2
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Seasoned and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Elixir
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Elixir in the treasure bag
+
+------------------------------
+Turn: 7
+
+Where the adventures are:
+EK is in EARTH-0-2 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in FIRE-0-0 and has no resonance or discord with the room
+TV is in WATER-2-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-1
+F is in FIRE-1-2
+F is in FIRE-1-0
+F is in FIRE-2-1
+T is in EARTH-2-2
+T is in EARTH-1-2
+Z is in AIR-1-0
+Z is in AIR-0-0
+Z is in AIR-0-1
+Z is in AIR-0-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 8
+
+Where the adventures are:
+EK is in EARTH-0-1 and has no resonance or discord with the room
+ZR is in FIRE-1-2 and has no resonance or discord with the room
+MW is in FIRE-1-0 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-0
+F is in FIRE-0-2
+F is in FIRE-2-0
+F is in FIRE-2-2
+T is in EARTH-2-2
+T is in EARTH-1-2
+Z is in AIR-1-1
+Z is in AIR-0-1
+Z is in AIR-0-0
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 9
+
+Where the adventures are:
+EK is in EARTH-0-2 and has no resonance or discord with the room
+ZR is in FIRE-0-2 and has no resonance or discord with the room
+MW is in FIRE-0-0 and has no resonance or discord with the room
+TV is in WATER-2-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-0
+F is in FIRE-0-1
+F is in FIRE-2-1
+F is in FIRE-1-2
+T is in EARTH-2-2
+T is in EARTH-1-2
+Z is in AIR-1-2
+Z is in AIR-0-0
+Z is in AIR-1-0
+Z is in AIR-0-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 10
+
+Where the adventures are:
+EK is in EARTH-0-1 and has no resonance or discord with the room
+ZR is in FIRE-0-1 and has no resonance or discord with the room
+MW is in FIRE-1-0 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-0
+F is in FIRE-0-0
+F is in FIRE-2-2
+F is in FIRE-0-2
+T is in EARTH-2-2
+T is in EARTH-1-2
+Z is in AIR-2-2
+Z is in AIR-0-1
+Z is in AIR-1-1
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 11
+
+Where the adventures are:
+EK is in EARTH-0-2 and has no resonance or discord with the room
+ZR is in FIRE-0-0 and has no resonance or discord with the room
+MW is in FIRE-1-1 and has no resonance or discord with the room
+TV is in WATER-2-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-1
+F is in FIRE-1-0
+F is in FIRE-1-2
+F is in FIRE-0-1
+T is in EARTH-2-2
+T is in EARTH-1-2
+Z is in AIR-1-2
+Z is in AIR-0-0
+Z is in AIR-2-1
+Z is in AIR-2-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 12
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in FIRE-1-0 and has no resonance or discord with the room
+MW is in AIR-1-1 and has room discord
+TV is in WATER-1-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-2
+F is in FIRE-2-0
+F is in FIRE-0-2
+F is in FIRE-0-0
+T is in EARTH-2-2
+T is in EARTH-1-2
+Z is in AIR-0-2
+Z is in AIR-0-1
+Z is in AIR-1-1
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+Adventurer EK EARTH-1-2 is fighting Creature T EARTH-1-2, adventurer EK lost combat, new health is 1.
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 13
+
+Where the adventures are:
+EK is in EARTH-0-2 and has no resonance or discord with the room
+ZR is in FIRE-2-0 and has no resonance or discord with the room
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in WATER-2-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-2
+F is in FIRE-2-1
+F is in FIRE-0-1
+F is in FIRE-1-0
+T is in EARTH-2-2
+T is in EARTH-1-2
+Z is in AIR-1-2
+Z is in AIR-0-0
+Z is in AIR-2-1
+Z is in AIR-0-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 14
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in FIRE-1-0 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-2
+F is in FIRE-2-2
+F is in FIRE-0-0
+F is in FIRE-2-0
+T is in EARTH-2-2
+Z is in AIR-2-2
+Z is in AIR-1-0
+Z is in AIR-2-2
+Z is in AIR-0-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 15
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in FIRE-0-0 and has no resonance or discord with the room
+MW is in EARTH-2-0 and has no resonance or discord with the room
+TV is in WATER-2-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-1
+F is in FIRE-1-2
+F is in FIRE-1-0
+F is in FIRE-2-1
+T is in EARTH-2-2
+Z is in AIR-2-1
+Z is in AIR-1-1
+Z is in AIR-1-2
+Z is in AIR-0-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Novice
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found 
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 16
+
+Where the adventures are:
+EK is in EARTH-1-0 and has no resonance or discord with the room
+ZR is in FIRE-0-1 and has no resonance or discord with the room
+MW is in EARTH-2-1 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-0
+F is in FIRE-0-2
+F is in FIRE-2-0
+F is in FIRE-2-2
+T is in EARTH-2-2
+Z is in AIR-1-1
+Z is in AIR-1-2
+Z is in AIR-0-2
+Z is in AIR-1-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 17
+
+Where the adventures are:
+EK is in EARTH-0-0 and has no resonance or discord with the room
+ZR is in FIRE-0-0 and has no resonance or discord with the room
+MW is in EARTH-2-2 and has no resonance or discord with the room
+TV is in WATER-2-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-0
+F is in FIRE-0-1
+F is in FIRE-2-1
+F is in FIRE-1-2
+T is in EARTH-2-2
+Z is in AIR-1-0
+Z is in AIR-1-1
+Z is in AIR-1-2
+Z is in AIR-1-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+Adventurer MW EARTH-2-2 is fighting Creature T EARTH-2-2, adventurer MW lost combat, new health is 1.
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 18
+
+Where the adventures are:
+EK is in EARTH-1-0 and has no resonance or discord with the room
+ZR is in FIRE-1-0 and has no resonance or discord with the room
+MW is in EARTH-1-2 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-0
+F is in FIRE-0-0
+F is in FIRE-2-2
+F is in FIRE-0-2
+T is in EARTH-2-2
+Z is in AIR-0-0
+Z is in AIR-1-0
+Z is in AIR-2-2
+Z is in AIR-1-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 19
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in FIRE-0-0 and has no resonance or discord with the room
+MW is in EARTH-2-2 and has no resonance or discord with the room
+TV is in WATER-1-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-1
+F is in FIRE-1-0
+F is in FIRE-1-2
+F is in FIRE-0-1
+Z is in AIR-0-1
+Z is in AIR-2-0
+Z is in AIR-1-2
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 20
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in FIRE-1-0 and has no resonance or discord with the room
+MW is in EARTH-1-2 and has no resonance or discord with the room
+TV is in WATER-0-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-2
+F is in FIRE-2-0
+F is in FIRE-0-2
+F is in FIRE-0-0
+Z is in AIR-1-1
+Z is in AIR-2-1
+Z is in AIR-2-2
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 21
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in FIRE-0-0 and has no resonance or discord with the room
+MW is in EARTH-2-2 and has no resonance or discord with the room
+TV is in WATER-0-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-2
+F is in FIRE-2-1
+F is in FIRE-0-1
+F is in FIRE-1-0
+Z is in AIR-0-1
+Z is in AIR-1-1
+Z is in AIR-2-1
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 22
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in FIRE-0-1 and has no resonance or discord with the room
+MW is in EARTH-1-2 and has no resonance or discord with the room
+TV is in WATER-1-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-2
+F is in FIRE-2-2
+F is in FIRE-0-0
+F is in FIRE-2-0
+Z is in AIR-1-1
+Z is in AIR-1-0
+Z is in AIR-1-1
+Z is in AIR-1-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 23
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in FIRE-0-2 and has no resonance or discord with the room
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in WATER-0-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-1
+F is in FIRE-1-2
+F is in FIRE-1-0
+F is in FIRE-2-1
+Z is in AIR-1-2
+Z is in AIR-2-0
+Z is in AIR-2-1
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 24
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in FIRE-1-2 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in WATER-0-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-0
+F is in FIRE-0-2
+F is in FIRE-2-0
+F is in FIRE-2-2
+Z is in AIR-0-2
+Z is in AIR-1-0
+Z is in AIR-2-2
+Z is in AIR-1-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 25
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in EARTH-2-0 and has no resonance or discord with the room
+TV is in WATER-1-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-0
+F is in FIRE-0-1
+F is in FIRE-2-1
+F is in FIRE-1-2
+Z is in AIR-0-1
+Z is in AIR-1-1
+Z is in AIR-2-1
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 26
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in FIRE-2-1 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-0
+F is in FIRE-0-0
+F is in FIRE-2-2
+F is in FIRE-0-2
+Z is in AIR-0-2
+Z is in AIR-1-0
+Z is in AIR-2-0
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 27
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in WATER-2-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-1
+F is in FIRE-1-0
+F is in FIRE-1-2
+F is in FIRE-0-1
+Z is in AIR-0-1
+Z is in AIR-2-0
+Z is in AIR-1-0
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 28
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in FIRE-1-0 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in WATER-1-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-2
+F is in FIRE-2-0
+F is in FIRE-0-2
+F is in FIRE-0-0
+Z is in AIR-0-2
+Z is in AIR-1-0
+Z is in AIR-0-0
+Z is in AIR-1-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found 
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem in the treasure bag
+Adventurer ZR has in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 29
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in FIRE-2-0 and has no resonance or discord with the room
+MW is in EARTH-0-0 and has no resonance or discord with the room
+TV is in WATER-0-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-2
+F is in FIRE-2-1
+F is in FIRE-0-1
+F is in FIRE-1-0
+Z is in AIR-1-2
+Z is in AIR-0-0
+Z is in AIR-0-1
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Seasoned
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Glasses
+Adventurer ZR found Elixir
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 30
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in FIRE-2-1 and has no resonance or discord with the room
+MW is in EARTH-0-1 and has no resonance or discord with the room
+TV is in WATER-0-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-2
+F is in FIRE-2-2
+F is in FIRE-0-0
+F is in FIRE-2-0
+Z is in AIR-1-1
+Z is in AIR-0-1
+Z is in AIR-0-2
+Z is in AIR-1-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Veteran
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Gem
+Adventurer ZR found Elixir
+Adventurer MW found 
+Adventurer TV found Glasses
+
+Adventurer Treasure Bag:
+Adventurer EK has Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 31
+
+Where the adventures are:
+EK is in EARTH-2-0 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in WATER-0-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-1
+F is in FIRE-1-2
+F is in FIRE-1-0
+F is in FIRE-2-1
+Z is in AIR-2-1
+Z is in AIR-0-0
+Z is in AIR-1-2
+Z is in AIR-1-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found 
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 32
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in FIRE-1-2 and has no resonance or discord with the room
+MW is in EARTH-1-2 and has no resonance or discord with the room
+TV is in WATER-1-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-0
+F is in FIRE-0-2
+F is in FIRE-2-0
+F is in FIRE-2-2
+Z is in AIR-1-1
+Z is in AIR-0-1
+Z is in AIR-0-2
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found 
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 33
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in FIRE-2-2 and has no resonance or discord with the room
+MW is in EARTH-0-2 and has no resonance or discord with the room
+TV is in WATER-0-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-0
+F is in FIRE-0-1
+F is in FIRE-2-1
+F is in FIRE-1-2
+Z is in AIR-0-1
+Z is in AIR-0-2
+Z is in AIR-0-1
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found 
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 34
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in FIRE-2-1 and has no resonance or discord with the room
+MW is in EARTH-0-1 and has no resonance or discord with the room
+TV is in WATER-0-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-0
+F is in FIRE-0-0
+F is in FIRE-2-2
+F is in FIRE-0-2
+Z is in AIR-0-0
+Z is in AIR-0-1
+Z is in AIR-0-0
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found 
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has in the treasure bag
+Adventurer TV has Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 35
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in EARTH-0-0 and has no resonance or discord with the room
+TV is in WATER-0-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-1
+F is in FIRE-1-0
+F is in FIRE-1-2
+F is in FIRE-0-1
+Z is in AIR-0-1
+Z is in AIR-0-0
+Z is in AIR-1-0
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found Glasses
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has Glasses in the treasure bag
+Adventurer TV has Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 36
+
+Where the adventures are:
+EK is in EARTH-0-1 and has no resonance or discord with the room
+ZR is in FIRE-1-0 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in WATER-0-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-2
+F is in FIRE-2-0
+F is in FIRE-0-2
+F is in FIRE-0-0
+Z is in AIR-1-1
+Z is in AIR-1-0
+Z is in AIR-1-1
+Z is in AIR-1-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found Glasses
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has Glasses in the treasure bag
+Adventurer TV has Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 37
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in FIRE-2-0 and has no resonance or discord with the room
+MW is in EARTH-0-0 and has no resonance or discord with the room
+TV is in WATER-0-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-2
+F is in FIRE-2-1
+F is in FIRE-0-1
+F is in FIRE-1-0
+Z is in AIR-0-1
+Z is in AIR-2-0
+Z is in AIR-1-2
+Z is in AIR-2-2
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found Glasses
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has Glasses in the treasure bag
+Adventurer TV has Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 38
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in FIRE-1-0 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in WATER-1-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-2
+F is in FIRE-2-2
+F is in FIRE-0-0
+F is in FIRE-2-0
+Z is in AIR-0-2
+Z is in AIR-2-1
+Z is in AIR-1-1
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found Glasses
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 39
+
+Where the adventures are:
+EK is in EARTH-2-0 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in EARTH-2-0 and has no resonance or discord with the room
+TV is in WATER-2-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-1
+F is in FIRE-1-2
+F is in FIRE-1-0
+F is in FIRE-2-1
+Z is in AIR-0-1
+Z is in AIR-2-2
+Z is in AIR-0-1
+Z is in AIR-2-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found Glasses
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 40
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in AIR-1-1 and has room resonance
+MW is in EARTH-2-1 and has no resonance or discord with the room
+TV is in WATER-1-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-0
+F is in FIRE-0-2
+F is in FIRE-2-0
+F is in FIRE-2-2
+Z is in AIR-0-0
+Z is in AIR-1-2
+Z is in AIR-1-1
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found Glasses
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 41
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in AIR-1-1 and has room resonance
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in WATER-0-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-0
+F is in FIRE-0-1
+F is in FIRE-2-1
+F is in FIRE-1-2
+Z is in AIR-0-0
+Z is in AIR-1-2
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Novice
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Elixir
+Adventurer MW found Glasses
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Elixir in the treasure bag
+Adventurer MW has Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 42
+
+Where the adventures are:
+EK is in EARTH-1-2 and has no resonance or discord with the room
+ZR is in AIR-0-1 and has room resonance
+MW is in EARTH-0-1 and has no resonance or discord with the room
+TV is in WATER-1-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-0
+F is in FIRE-0-0
+F is in FIRE-2-2
+F is in FIRE-0-2
+Z is in AIR-0-0
+Z is in AIR-1-2
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 43
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in AIR-1-1 and has room resonance
+MW is in EARTH-0-0 and has no resonance or discord with the room
+TV is in WATER-0-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-1
+F is in FIRE-1-0
+F is in FIRE-1-2
+F is in FIRE-0-1
+Z is in AIR-0-0
+Z is in AIR-1-2
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 44
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in AIR-1-1 and has room resonance
+MW is in EARTH-0-1 and has no resonance or discord with the room
+TV is in WATER-1-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-2
+F is in FIRE-2-0
+F is in FIRE-0-2
+F is in FIRE-0-0
+Z is in AIR-1-0
+Z is in AIR-2-2
+Z is in AIR-0-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Seasoned
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 45
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in FIRE-1-1 and has no resonance or discord with the room
+MW is in EARTH-0-0 and has no resonance or discord with the room
+TV is in WATER-2-2 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-2
+F is in FIRE-2-1
+F is in FIRE-0-1
+F is in FIRE-1-0
+Z is in AIR-0-0
+Z is in AIR-2-1
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Seasoned
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Sword
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 46
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in AIR-1-1 and has room resonance
+MW is in EARTH-0-1 and has no resonance or discord with the room
+TV is in WATER-2-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-2
+F is in FIRE-2-2
+F is in FIRE-0-0
+F is in FIRE-2-0
+Z is in AIR-0-1
+Z is in AIR-2-0
+Z is in AIR-2-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Veteran
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 47
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in WATER-1-1 and has no resonance or discord with the room
+MW is in EARTH-0-0 and has no resonance or discord with the room
+TV is in WATER-1-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-1
+F is in FIRE-1-2
+F is in FIRE-1-0
+F is in FIRE-2-1
+Z is in AIR-0-2
+Z is in AIR-2-1
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 48
+
+Where the adventures are:
+EK is in EARTH-1-0 and has no resonance or discord with the room
+ZR is in WATER-0-1 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in AIR-1-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-0
+F is in FIRE-0-2
+F is in FIRE-2-0
+F is in FIRE-2-2
+Z is in AIR-1-2
+Z is in AIR-1-1
+Z is in AIR-2-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 49
+
+Where the adventures are:
+EK is in EARTH-0-0 and has no resonance or discord with the room
+ZR is in WATER-0-2 and has no resonance or discord with the room
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in FIRE-1-1 and has room discord
+
+Where the creatures are:
+F is in FIRE-1-0
+F is in FIRE-0-1
+F is in FIRE-2-1
+F is in FIRE-1-2
+Z is in AIR-1-1
+Z is in AIR-1-0
+Z is in AIR-1-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 50
+
+Where the adventures are:
+EK is in EARTH-1-0 and has no resonance or discord with the room
+ZR is in WATER-0-1 and has no resonance or discord with the room
+MW is in EARTH-1-0 and has no resonance or discord with the room
+TV is in AIR-1-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-0
+F is in FIRE-0-0
+F is in FIRE-2-2
+F is in FIRE-0-2
+Z is in AIR-0-1
+Z is in AIR-2-0
+Z is in AIR-1-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 51
+
+Where the adventures are:
+EK is in EARTH-0-0 and has no resonance or discord with the room
+ZR is in WATER-0-0 and has no resonance or discord with the room
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in WATER-1-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-1
+F is in FIRE-1-0
+F is in FIRE-1-2
+F is in FIRE-0-1
+Z is in AIR-1-1
+Z is in AIR-2-1
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 52
+
+Where the adventures are:
+EK is in EARTH-1-0 and has no resonance or discord with the room
+ZR is in WATER-0-1 and has no resonance or discord with the room
+MW is in EARTH-1-2 and has no resonance or discord with the room
+TV is in WATER-0-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-2-2
+F is in FIRE-2-0
+F is in FIRE-0-2
+F is in FIRE-0-0
+Z is in AIR-1-0
+Z is in AIR-2-0
+Z is in AIR-1-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 53
+
+Where the adventures are:
+EK is in EARTH-1-1 and has no resonance or discord with the room
+ZR is in WATER-0-2 and has no resonance or discord with the room
+MW is in EARTH-2-2 and has no resonance or discord with the room
+TV is in WATER-0-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-1-2
+F is in FIRE-2-1
+F is in FIRE-0-1
+F is in FIRE-1-0
+Z is in AIR-2-0
+Z is in AIR-1-0
+Z is in AIR-0-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 54
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in WATER-0-1 and has no resonance or discord with the room
+MW is in EARTH-1-2 and has no resonance or discord with the room
+TV is in WATER-0-1 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-2
+F is in FIRE-2-2
+F is in FIRE-0-0
+F is in FIRE-2-0
+Z is in AIR-2-1
+Z is in AIR-1-1
+Z is in AIR-1-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 55
+
+Where the adventures are:
+EK is in EARTH-2-2 and has no resonance or discord with the room
+ZR is in WATER-1-1 and has no resonance or discord with the room
+MW is in EARTH-1-1 and has no resonance or discord with the room
+TV is in WATER-0-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-1
+F is in FIRE-1-2
+F is in FIRE-1-0
+F is in FIRE-2-1
+Z is in AIR-1-1
+Z is in AIR-2-1
+Z is in AIR-2-1
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+
+------------------------------
+Turn: 56
+
+Where the adventures are:
+EK is in EARTH-2-1 and has no resonance or discord with the room
+ZR is in WATER-2-1 and has no resonance or discord with the room
+MW is in EARTH-2-1 and has no resonance or discord with the room
+TV is in WATER-1-0 and has no resonance or discord with the room
+
+Where the creatures are:
+F is in FIRE-0-0
+F is in FIRE-0-2
+F is in FIRE-2-0
+F is in FIRE-2-2
+Z is in AIR-1-0
+Z is in AIR-1-1
+Z is in AIR-2-0
+
+Combat Expertise and Search Expertise:
+Adventurer EK combat expertise is Veteran and search expertise is Master
+Adventurer ZR combat expertise is Novice and search expertise is Veteran
+Adventurer MW combat expertise is Novice and search expertise is Seasoned
+Adventurer TV combat expertise is Veteran and search expertise is Master
+
+Combat:
+
+Adventurer Removed:
+
+Adventurer Found Treasure:
+Adventurer EK found Shield
+Adventurer ZR found Shield
+Adventurer MW found Elixir
+Adventurer TV found Gem
+
+Adventurer Treasure Bag:
+Adventurer EK has Shield Gem Glasses Gem in the treasure bag
+Adventurer ZR has Shield Shield Elixir in the treasure bag
+Adventurer MW has Elixir Glasses in the treasure bag
+Adventurer TV has Gem Gem Gem Sword Gem Gem Glasses Glasses Elixir in the treasure bag
+

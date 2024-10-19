@@ -8,7 +8,7 @@ public class TerraVoyager extends Adventurer{
     public TerraVoyager(Room room){
         this.room = room;
         room.adventurers.add(this);
-
+        maxHealth = 7;
         health = 7;
         dodgeChance = 0.1;
         resonance = ElementType.EARTH;
