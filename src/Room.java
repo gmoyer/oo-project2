@@ -46,4 +46,8 @@ public class Room {
         }
         return null;
     }
+    @Override
+    public String toString(){
+        return elementType.name()+"-"+row+"-"+col;
+    }
 }

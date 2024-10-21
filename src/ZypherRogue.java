@@ -8,7 +8,7 @@ public class ZypherRogue extends Adventurer{
     public ZypherRogue(Room room){
         this.room = room;
         room.adventurers.add(this);
-
+        maxHealth = 3;
         health = 3;
         dodgeChance = 0.25;
         resonance = ElementType.AIR;

@@ -1,6 +1,6 @@
+import java.util.ArrayList;
+
 public abstract class Character {
-    //This is an example of abstraction. This class is abstract so we can implement our different types
-    // of characters we have
     public Room room;
 
     /*
@@ -18,6 +18,4 @@ public abstract class Character {
         int roll2 = (int)(Math.random() * 6) + 1;
         return roll1+roll2;
     }
-
-
 }

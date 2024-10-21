@@ -3,6 +3,7 @@ import Treasure.TreasureBag;
 public abstract class Adventurer extends Character {
     Expertise combatExpertise;
     Expertise searchExpertise;
+    public int maxHealth;
     public int health;
     public double dodgeChance;
     public ElementType resonance;

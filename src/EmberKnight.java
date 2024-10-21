@@ -12,6 +12,7 @@ public class EmberKnight extends Adventurer {
         dodgeChance = 0.2;
         resonance = ElementType.FIRE;
         discord = ElementType.WATER;
+        maxHealth = 5;
         health = 5;
         treasureBag = new EmptyTreasureBag();
         combatExpertise = new Novice();
