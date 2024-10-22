@@ -27,4 +27,11 @@ public abstract class Adventurer extends Character {
         return health + treasureBag.healthBonus() <= 0;
     }
 
+    public void userMove(Room newRoom) {
+        if (room.adjacentRooms.contains(newRoom)) {
+            room.adventurers.remove(this);
+            room = newRoom;
+            room.adventurers.add(this);
+        }
+    }
 }

@@ -8,6 +8,12 @@ public class FightCommand implements Command {
             adventurer.combat(creature);
         }
     }
+
+    @Override
+    public boolean canExecute() {
+        return !adventurer.room.creatures.isEmpty();
+    }
+
     public String toString() {
         return "Fight creatures in room";
     }

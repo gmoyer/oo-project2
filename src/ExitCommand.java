@@ -6,6 +6,12 @@ public class ExitCommand implements Command {
     public void execute() {
         dungeon.userExit();
     }
+
+    @Override
+    public boolean canExecute() {
+        return dungeon.adventurers.getFirst().room == dungeon.startingRoom;
+    }
+
     public String toString() {
         return "Exit the dungeon";
     }

@@ -7,7 +7,7 @@ import Treasure.Elixir;
 import Treasure.Treasure;
 import java.util.ArrayList;
 
-public class Dungeon implements Subject{
+public class Dungeon implements Subject {
     public Room startingRoom;
     public Floor[] floors = new Floor[ElementType.values().length];
 
@@ -24,7 +24,6 @@ public class Dungeon implements Subject{
     final int treasureToWin = 60000;
 
     public UserRemote remote;
-    public ExitCommand exitCommand;
     public boolean adventurersWon = false;
     public boolean creaturesWon = false;
 
@@ -85,7 +84,7 @@ public class Dungeon implements Subject{
         remote.addCommand(new MoveCommand(adventurer));
         remote.addCommand(new SearchCommand(adventurer));
         remote.addCommand(new FightCommand(adventurer));
-        exitCommand = new ExitCommand(this);
+        remote.addCommand(new ExitCommand(this));
 
         tracker = new Tracker(turn, totalTreasures,4, creatures.size(), adventurers, creatures);
         logger = new Logger(adventurers, creatures, totalTreasures, 4, creatures.size(), turn);
@@ -134,12 +133,6 @@ public class Dungeon implements Subject{
 
     public void runTurn() {
         turn++;
-
-        if (adventurers.getFirst().room == startingRoom) {
-            remote.addCommand(exitCommand);
-        } else {
-            remote.removeCommand(exitCommand);
-        }
 
         // Run the adventurer
         UserInput.userTurn(remote);

@@ -6,6 +6,12 @@ public class SearchCommand implements Command {
     public void execute() {
         adventurer.searchTreasure();
     }
+
+    @Override
+    public boolean canExecute() {
+        return true;
+    }
+
     public String toString() {
         return "Search for Treasure";
     }

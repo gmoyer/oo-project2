@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class UserRemote {
     ArrayList<Command> slots = new ArrayList<Command>();
+    ArrayList<Command> availableSlots = new ArrayList<Command>();
 
     public UserRemote() {}
 
@@ -13,17 +14,28 @@ public class UserRemote {
         slots.remove(command);
     }
 
+    public void updateAvailableSlots() {
+        availableSlots.clear();
+        for (Command command : slots) {
+            if (command.canExecute()) {
+                availableSlots.add(command);
+            }
+        }
+    }
+
     public boolean buttonWasPressed(int row) {
-        if (row >= slots.size() || row < 0) {
+        updateAvailableSlots();
+        if (row >= availableSlots.size() || row < 0) {
             return false;
         }
-        slots.get(row).execute();
+        availableSlots.get(row).execute();
         return true;
     }
 
     public void printOptions(){
-        for(int i = 0; i < slots.size(); i++){
-            System.out.println(i + ": " + slots.get(i));
+        updateAvailableSlots();
+        for(int i = 0; i < availableSlots.size(); i++){
+            System.out.println(i + ": " + availableSlots.get(i));
         }
     }
 }
