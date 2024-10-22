@@ -21,6 +21,7 @@ public class Dungeon implements Subject{
     private int totalTreasures = 0;
     public Tracker tracker;
     public Logger logger;
+    final int treasureToWin = 15000;
 
     public Dungeon() {
         observers = new ArrayList<Observer>();
@@ -62,17 +63,9 @@ public class Dungeon implements Subject{
         // Add treasures to the floors
         for (int i = 0; i < 4; i++) {
             addTreasureToRandomRoom(new Sword());
-        }
-        for (int i = 0; i < 4; i++) {
             addTreasureToRandomRoom(new Shield());
-        }
-        for (int i = 0; i < 4; i++) {
             addTreasureToRandomRoom(new Potion());
-        }
-        for (int i = 0; i < 4; i++) {
             addTreasureToRandomRoom(new Glasses());
-        }
-        for (int i = 0; i < 4; i++) {
             addTreasureToRandomRoom(new Elixir());
         }
         for (int i = 0; i < 15; i++) {
@@ -119,7 +112,7 @@ public class Dungeon implements Subject{
                     }
                 }
             }
-            if (creatures.isEmpty() || totalValue >= 15000 || !treasureLeft) {
+            if (creatures.isEmpty() || totalValue >= treasureToWin || !treasureLeft) {
                 adventurersWon = true;
             }
 
