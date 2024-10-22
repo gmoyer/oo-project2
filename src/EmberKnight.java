@@ -27,13 +27,6 @@ public class EmberKnight extends Adventurer {
     }
 
     @Override
-    public void searchTreasure() {
-        if(roll() + treasureBag.searchBonus() + searchExpertise.bonus() >= 11 ){
-            takeTreasure();
-        }
-    }
-
-    @Override
     public void combat(Creature creature) {
         int playerRoll = roll() + treasureBag.combatBonus() + combatExpertise.bonus();
         int creatureRoll = roll() - treasureBag.armorBonus() + treasureBag.creatureBonus();

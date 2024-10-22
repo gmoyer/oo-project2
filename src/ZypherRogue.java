@@ -41,6 +41,7 @@ public class ZypherRogue extends Adventurer{
         }
     }
 
+
     public void combat(Creature creature) {
         int playerRoll = roll() + treasureBag.combatBonus() + combatExpertise.bonus();
         int creatureRoll = roll() - treasureBag.armorBonus() + treasureBag.creatureBonus();

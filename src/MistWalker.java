@@ -26,12 +26,7 @@ public class MistWalker extends Adventurer{
         room.adventurers.add(this);
     }
 
-    @Override
-    public void searchTreasure() {
-        if(roll()+ treasureBag.searchBonus() + searchExpertise.bonus() >= 11 ){
-            takeTreasure();
-        }
-    }
+
 
     @Override
     public void combat(Creature creature) {

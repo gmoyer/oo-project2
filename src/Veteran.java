@@ -6,7 +6,7 @@ public class Veteran implements Expertise{
 
     @Override
     public Expertise levelUp() {
-        if(Math.random() > 0.5){
+        if(Math.random() > randomLevelUp){
             return new Master();
         }
         else{
