@@ -8,8 +8,8 @@ public class MistWalker extends Adventurer{
     public MistWalker(Room room){
         this.room = room;
         room.adventurers.add(this);
-        maxHealth = 3;
-        health = 3;
+        maxHealth = 6;
+        health = 6;
         dodgeChance = 0.5;
         resonance = ElementType.WATER;
         discord = ElementType.AIR;
@@ -28,7 +28,7 @@ public class MistWalker extends Adventurer{
 
     @Override
     public void searchTreasure() {
-        if(roll()+ treasureBag.searchBonus() + searchExpertise.bonus() >= 11 ){
+        if(roll()+ treasureBag.searchBonus() + searchExpertise.bonus() >= 7 ){
             takeTreasure();
         }
     }

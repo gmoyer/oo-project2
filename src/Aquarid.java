@@ -18,7 +18,7 @@ public class Aquarid extends Creature{
     @Override
     public void move() {
         for (Room r : room.adjacentRooms) {
-            if (!r.adventurers.isEmpty()) {
+            if (!r.adventurers.isEmpty() && !r.startingRoom) {
                 room.creatures.remove(this);
                 room = r;
                 room.creatures.add(this);

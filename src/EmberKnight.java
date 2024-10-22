@@ -12,8 +12,8 @@ public class EmberKnight extends Adventurer {
         dodgeChance = 0.2;
         resonance = ElementType.FIRE;
         discord = ElementType.WATER;
-        maxHealth = 5;
-        health = 5;
+        maxHealth = 10;
+        health = 10;
         treasureBag = new EmptyTreasureBag();
         combatExpertise = new Novice();
         searchExpertise = new Novice();
@@ -29,7 +29,7 @@ public class EmberKnight extends Adventurer {
 
     @Override
     public void searchTreasure() {
-        if(roll() + treasureBag.searchBonus() + searchExpertise.bonus() >= 11 ){
+        if(roll() + treasureBag.searchBonus() + searchExpertise.bonus() >= 7 ){
             takeTreasure();
         }
     }

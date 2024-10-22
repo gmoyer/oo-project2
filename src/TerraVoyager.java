@@ -8,8 +8,8 @@ public class TerraVoyager extends Adventurer{
     public TerraVoyager(Room room){
         this.room = room;
         room.adventurers.add(this);
-        maxHealth = 7;
-        health = 7;
+        maxHealth = 14;
+        health = 14;
         dodgeChance = 0.1;
         resonance = ElementType.EARTH;
         discord = ElementType.FIRE;
@@ -28,7 +28,7 @@ public class TerraVoyager extends Adventurer{
 
     @Override
     public void searchTreasure() {
-        if(roll()+ treasureBag.searchBonus()+ searchExpertise.bonus() >= 11 ){
+        if(roll()+ treasureBag.searchBonus()+ searchExpertise.bonus() >= 7 ){
             takeTreasure();
         }
     }
