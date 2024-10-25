@@ -7,7 +7,7 @@ import Treasure.Elixir;
 import Treasure.Treasure;
 import java.util.ArrayList;
 
-public class Dungeon implements Subject{
+public class Dungeon implements Subject {
     public Room startingRoom;
     public Floor[] floors = new Floor[ElementType.values().length];
 
@@ -21,7 +21,11 @@ public class Dungeon implements Subject{
     private int totalTreasures = 0;
     public Tracker tracker;
     public Logger logger;
-    final int treasureToWin = 15000;
+    final int treasureToWin = 60000;
+
+    public UserRemote remote;
+    public boolean adventurersWon = false;
+    public boolean creaturesWon = false;
 
     public Dungeon() {
         observers = new ArrayList<Observer>();
@@ -73,10 +77,14 @@ public class Dungeon implements Subject{
         }
 
         // Set up the adventurers
-        adventurers.add(new EmberKnight(startingRoom));
-        adventurers.add(new ZypherRogue(startingRoom));
-        adventurers.add(new MistWalker(startingRoom));
-        adventurers.add(new TerraVoyager(startingRoom));
+        Adventurer adventurer = UserInput.chooseAdventurer(startingRoom);
+        adventurers.add(adventurer);
+
+        remote = new UserRemote();
+        remote.addCommand(new MoveCommand(adventurer));
+        remote.addCommand(new SearchCommand(adventurer));
+        remote.addCommand(new FightCommand(adventurer));
+        remote.addCommand(new ExitCommand(this));
 
         tracker = new Tracker(turn, totalTreasures,4, creatures.size(), adventurers, creatures);
         logger = new Logger(adventurers, creatures, totalTreasures, 4, creatures.size(), turn);
@@ -86,35 +94,11 @@ public class Dungeon implements Subject{
     }
 
     public void start() {
-        boolean adventurersWon = false;
-        boolean creaturesWon = false;
         while (!adventurersWon && !creaturesWon) {
             runTurn();
             System.out.println(this);
 
-            // Check if the adventurers won
-
-            // Check total value condition
-            int totalValue = 0;
-            for (Adventurer adventurer : adventurers) {
-                totalValue += adventurer.treasureBag.getValue();
-            }
-            totalTreasures = totalValue;
-            // Check treasure left condition
-            boolean treasureLeft = false;
-            for (Floor floor : floors) {
-                for (Room[] row : floor.rooms) {
-                    for (Room room : row) {
-                        if (room.treasure != null) {
-                            treasureLeft = true;
-                            break;
-                        }
-                    }
-                }
-            }
-            if (creatures.isEmpty() || totalValue >= treasureToWin || !treasureLeft) {
-                adventurersWon = true;
-            }
+            updateTotalTreasures();
 
             // Check if the creatures won
             if (adventurers.isEmpty()) {
@@ -130,28 +114,32 @@ public class Dungeon implements Subject{
 
     }
 
+    public void updateTotalTreasures() {
+        int totalValue = 0;
+        for (Adventurer adventurer : adventurers) {
+            totalValue += adventurer.treasureBag.getValue();
+        }
+        totalTreasures = totalValue;
+    }
+
+    public void userExit() {
+        updateTotalTreasures();
+        if (creatures.isEmpty() || totalTreasures >= treasureToWin) {
+            adventurersWon = true;
+        } else {
+            creaturesWon = true;
+        }
+    }
+
     public void runTurn() {
         turn++;
 
-        // Run the adventurers
-        for (Adventurer adventurer : adventurers) {
-            adventurer.move();
-        }
+        // Run the adventurer
+        UserInput.userTurn(remote);
 
         // Run the creatures
         for (Creature creature : creatures) {
             creature.move();
-        }
-
-        // Resolve any conflicts
-        for (Adventurer adventurer : adventurers) {
-            if (adventurer.room.creatures.isEmpty()) {
-                adventurer.searchTreasure();
-            } else {
-                for (Creature creature : adventurer.room.creatures) {
-                    adventurer.combat(creature);
-                }
-            }
         }
 
         // See if anyone died
