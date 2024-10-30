@@ -30,6 +30,10 @@ public class Dungeon implements Subject {
     public Dungeon() {
         observers = new ArrayList<Observer>();
 
+
+        AbstractCreatureFactory factory = new CreatureFactory();
+
+
         // Set up the floors
         startingRoom = new Room(null, 1, 1,ElementType.AIR, true);
         for (int i = 0; i < floors.length; i++) {
@@ -39,30 +43,10 @@ public class Dungeon implements Subject {
             floors[i].rooms[1][1].addAdjacentRoom(startingRoom);
             startingRoom.addAdjacentRoom(floors[i].rooms[1][1]);
 
-            switch(floors[i].elementType) {
-                case FIRE:
-                    creatures.add(new Fireborn(floors[i].rooms[0][0]));
-                    creatures.add(new Fireborn(floors[i].rooms[0][2]));
-                    creatures.add(new Fireborn(floors[i].rooms[2][0]));
-                    creatures.add(new Fireborn(floors[i].rooms[2][2]));
-                    break;
-                case WATER:
-                    for (int l = 0; l < 4; l++) {
-                        creatures.add(new Aquarid(floors[i].getRandomRoom()));
-                    }
-                    break;
-                case AIR:
-                    for (int l = 0; l < 4; l++) {
-                        creatures.add(new Zyphral(floors[i].getRandomRoom()));
-                    }
-                    break;
-                case EARTH:
-                    for (int l = 0; l < 4; l++) {
-                        creatures.add(new Terravore(floors[i].getRandomRoom()));
-                    }
-                    break;
-            }
+            creatures = factory.createCreature(floors[i].elementType, floors[i]);
+
         }
+
 
         // Add treasures to the floors
         for (int i = 0; i < 4; i++) {
