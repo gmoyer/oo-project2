@@ -9,7 +9,7 @@ public class SearchCommand implements Command {
 
     @Override
     public boolean canExecute() {
-        return true;
+        return adventurer.room.treasure != null;
     }
 
     public String toString() {
