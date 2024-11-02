@@ -3,25 +3,25 @@ Arcane RPG Log:
 Turn: 1
 
 Where the adventures are:
-ZR is in AIR-1-1 and has room resonance
+ZR is in EARTH-1-1 and has room discord
 
 Where the creatures are:
 F is in FIRE-1-0
 F is in FIRE-0-1
 F is in FIRE-2-1
 F is in FIRE-1-2
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
+T is in EARTH-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-1-1
 T is in EARTH-2-1
+Z is in AIR-2-1
+Z is in AIR-2-0
 Z is in AIR-1-2
-Z is in AIR-0-2
-Z is in AIR-2-2
-Z is in AIR-1-0
+Z is in AIR-2-1
 
 Combat Expertise and Search Expertise:
 Adventurer ZR combat expertise is Novice and search expertise is Novice
@@ -43,30 +43,32 @@ Adventurer ZR has in the treasure bag
 Turn: 2
 
 Where the adventures are:
-ZR is in AIR-1-1 and has room resonance
+ZR is in EARTH-2-1 and has room discord
 
 Where the creatures are:
 F is in FIRE-2-0
 F is in FIRE-0-0
 F is in FIRE-2-2
 F is in FIRE-0-2
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
+T is in EARTH-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-1-1
 T is in EARTH-2-1
-Z is in AIR-2-2
-Z is in AIR-0-1
-Z is in AIR-2-1
-Z is in AIR-0-0
+Z is in AIR-1-1
+Z is in AIR-1-0
+Z is in AIR-1-1
+Z is in AIR-1-1
 
 Combat Expertise and Search Expertise:
 Adventurer ZR combat expertise is Novice and search expertise is Novice
 
 Combat:
+Adventurer ZR EARTH-2-1 is fighting Creature T EARTH-2-1, adventurer ZR won combat, health is still 6.
+Creature T was removed
 
 Adventurer Removed:
 Adventurer EK died, so was removed
@@ -83,32 +85,29 @@ Adventurer ZR has in the treasure bag
 Turn: 3
 
 Where the adventures are:
-ZR is in EARTH-1-1 and has room discord
+ZR is in EARTH-2-1 and has room discord
 
 Where the creatures are:
 F is in FIRE-2-1
 F is in FIRE-1-0
 F is in FIRE-1-2
 F is in FIRE-0-1
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
+T is in EARTH-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-1-1
-T is in EARTH-2-1
-Z is in AIR-1-2
+Z is in AIR-0-1
 Z is in AIR-1-1
-Z is in AIR-2-2
+Z is in AIR-2-1
 Z is in AIR-0-1
 
 Combat Expertise and Search Expertise:
 Adventurer ZR combat expertise is Novice and search expertise is Novice
 
 Combat:
-Adventurer ZR EARTH-1-1 is fighting Creature T EARTH-1-1, adventurer ZR won combat, health is still 6.
-Creature T was removed
 
 Adventurer Removed:
 Adventurer EK died, so was removed
@@ -125,31 +124,29 @@ Adventurer ZR has in the treasure bag
 Turn: 4
 
 Where the adventures are:
-ZR is in EARTH-1-1 and has room discord
+ZR is in EARTH-2-1 and has room discord
 
 Where the creatures are:
 F is in FIRE-2-2
 F is in FIRE-2-0
 F is in FIRE-0-2
 F is in FIRE-0-0
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
+T is in EARTH-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-1-1
-T is in EARTH-2-1
-Z is in AIR-2-2
-Z is in AIR-1-2
-Z is in AIR-2-1
+Z is in AIR-1-1
+Z is in AIR-0-1
+Z is in AIR-1-1
 Z is in AIR-0-0
 
 Combat Expertise and Search Expertise:
 Adventurer ZR combat expertise is Novice and search expertise is Novice
 
 Combat:
-Adventurer ZR EARTH-1-1 is fighting Creature T EARTH-1-1, adventurer ZR lost combat, new health is 4.
 
 Adventurer Removed:
 Adventurer EK died, so was removed
@@ -166,31 +163,29 @@ Adventurer ZR has in the treasure bag
 Turn: 5
 
 Where the adventures are:
-ZR is in EARTH-1-1 and has room discord
+ZR is in EARTH-2-2 and has room discord
 
 Where the creatures are:
 F is in FIRE-1-2
 F is in FIRE-2-1
 F is in FIRE-0-1
 F is in FIRE-1-0
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
+T is in EARTH-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-1-1
-T is in EARTH-2-1
-Z is in AIR-2-1
-Z is in AIR-1-1
-Z is in AIR-2-2
 Z is in AIR-1-0
+Z is in AIR-1-1
+Z is in AIR-1-0
+Z is in AIR-0-1
 
 Combat Expertise and Search Expertise:
 Adventurer ZR combat expertise is Novice and search expertise is Novice
 
 Combat:
-Adventurer ZR EARTH-1-1 is fighting Creature T EARTH-1-1, adventurer ZR lost combat, new health is 4.
 
 Adventurer Removed:
 Adventurer EK died, so was removed
@@ -207,29 +202,31 @@ Adventurer ZR has in the treasure bag
 Turn: 6
 
 Where the adventures are:
-ZR is in EARTH-1-1 and has room discord
+ZR is in EARTH-1-2 and has room discord
 
 Where the creatures are:
 F is in FIRE-0-2
 F is in FIRE-2-2
 F is in FIRE-0-0
 F is in FIRE-2-0
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
+T is in EARTH-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-2-1
 Z is in AIR-1-1
 Z is in AIR-2-1
-Z is in AIR-1-2
-Z is in AIR-0-0
+Z is in AIR-1-1
+Z is in AIR-0-2
 
 Combat Expertise and Search Expertise:
 Adventurer ZR combat expertise is Novice and search expertise is Novice
 
 Combat:
+Adventurer ZR EARTH-1-2 is fighting Creature T EARTH-1-2, adventurer ZR won combat, health is still 6.
+Creature T was removed
 
 Adventurer Removed:
 Adventurer EK died, so was removed
@@ -246,29 +243,30 @@ Adventurer ZR has in the treasure bag
 Turn: 7
 
 Where the adventures are:
-ZR is in EARTH-1-1 and has room discord
+ZR is in EARTH-1-2 and has room discord
 
 Where the creatures are:
 F is in FIRE-0-1
 F is in FIRE-1-2
 F is in FIRE-1-0
 F is in FIRE-2-1
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
+T is in EARTH-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-2-1
-Z is in AIR-0-1
-Z is in AIR-2-2
-Z is in AIR-0-2
+Z is in AIR-2-1
+Z is in AIR-1-1
+Z is in AIR-2-1
 Z is in AIR-0-1
 
 Combat Expertise and Search Expertise:
 Adventurer ZR combat expertise is Novice and search expertise is Novice
 
 Combat:
+Adventurer ZR EARTH-1-2 is fighting Creature T EARTH-1-2, adventurer ZR lost combat, new health is 4.
 
 Adventurer Removed:
 Adventurer EK died, so was removed
@@ -285,27 +283,26 @@ Adventurer ZR has in the treasure bag
 Turn: 8
 
 Where the adventures are:
-ZR is in EARTH-1-0 and has room discord
+ZR is in EARTH-1-2 and has room discord
 
 Where the creatures are:
 F is in FIRE-0-0
 F is in FIRE-0-2
 F is in FIRE-2-0
 F is in FIRE-2-2
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-2-1
-Z is in AIR-0-0
-Z is in AIR-2-1
-Z is in AIR-0-1
-Z is in AIR-0-0
+Z is in AIR-2-0
+Z is in AIR-1-2
+Z is in AIR-2-2
+Z is in AIR-0-2
 
 Combat Expertise and Search Expertise:
-Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer ZR combat expertise is Seasoned and search expertise is Novice
 
 Combat:
 
@@ -324,27 +321,26 @@ Adventurer ZR has in the treasure bag
 Turn: 9
 
 Where the adventures are:
-ZR is in EARTH-0-0 and has room discord
+ZR is in EARTH-1-2 and has room discord
 
 Where the creatures are:
 F is in FIRE-1-0
 F is in FIRE-0-1
 F is in FIRE-2-1
 F is in FIRE-1-2
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-2-1
+Z is in AIR-2-1
+Z is in AIR-0-2
+Z is in AIR-1-2
 Z is in AIR-0-1
-Z is in AIR-2-2
-Z is in AIR-1-1
-Z is in AIR-1-0
 
 Combat Expertise and Search Expertise:
-Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer ZR combat expertise is Seasoned and search expertise is Novice
 
 Combat:
 
@@ -363,31 +359,28 @@ Adventurer ZR has in the treasure bag
 Turn: 10
 
 Where the adventures are:
-ZR is in EARTH-0-1 and has room discord
+ZR is in EARTH-2-2 and has room discord
 
 Where the creatures are:
 F is in FIRE-2-0
 F is in FIRE-0-0
 F is in FIRE-2-2
 F is in FIRE-0-2
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-2-1
-Z is in AIR-1-1
-Z is in AIR-2-1
+Z is in AIR-2-0
 Z is in AIR-1-2
-Z is in AIR-0-0
+Z is in AIR-0-2
+Z is in AIR-0-2
 
 Combat Expertise and Search Expertise:
-Adventurer ZR combat expertise is Novice and search expertise is Novice
+Adventurer ZR combat expertise is Seasoned and search expertise is Novice
 
 Combat:
-Adventurer ZR EARTH-0-1 is fighting Creature T EARTH-0-1, adventurer ZR lost combat, new health is 4.
-Adventurer ZR EARTH-0-1 is fighting Creature T EARTH-0-1, adventurer ZR lost combat, new health is 4.
 
 Adventurer Removed:
 Adventurer EK died, so was removed
@@ -404,35 +397,37 @@ Adventurer ZR has in the treasure bag
 Turn: 11
 
 Where the adventures are:
+ZR is in EARTH-1-2 and has room discord
 
 Where the creatures are:
 F is in FIRE-2-1
 F is in FIRE-1-0
 F is in FIRE-1-2
 F is in FIRE-0-1
-A is in WATER-2-2
-A is in WATER-2-2
-A is in WATER-1-0
 A is in WATER-2-0
+A is in WATER-2-1
+A is in WATER-2-1
+A is in WATER-1-2
 T is in EARTH-0-1
 T is in EARTH-0-1
-T is in EARTH-2-1
 Z is in AIR-1-0
-Z is in AIR-2-2
 Z is in AIR-0-2
-Z is in AIR-1-0
+Z is in AIR-1-2
+Z is in AIR-1-2
 
 Combat Expertise and Search Expertise:
+Adventurer ZR combat expertise is Seasoned and search expertise is Novice
 
 Combat:
 
 Adventurer Removed:
 Adventurer EK died, so was removed
-Adventurer ZR died, so was removed
 Adventurer MW died, so was removed
 Adventurer TV died, so was removed
 
 Adventurer Found Treasure:
+Adventurer ZR found 
 
 Adventurer Treasure Bag:
+Adventurer ZR has in the treasure bag
 

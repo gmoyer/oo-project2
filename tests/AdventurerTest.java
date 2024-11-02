@@ -28,4 +28,48 @@ class AdventurerTest {
 
         assertFalse(a1.isDead());
     }
+
+    @Test
+    void isEmberKnight_Adventurer_true() {
+        int choice = 1;
+        Room startingRoom = new Room(new Floor(ElementType.FIRE),0,0,ElementType.FIRE,false);
+        AbstractAdventurerFactory factory = new AdventurerFactory();
+        Adventurer ek = factory.createAdventurer(choice,startingRoom);
+
+        assertTrue(ek instanceof EmberKnight);
+
+    }
+
+    @Test
+    void is_MistWalker_Adventurer_true() {
+        int choice = 2;
+        Room startingRoom = new Room(new Floor(ElementType.FIRE),0,0,ElementType.FIRE,false);
+        AbstractAdventurerFactory factory = new AdventurerFactory();
+        Adventurer mw = factory.createAdventurer(choice,startingRoom);
+
+        assertTrue(mw instanceof  MistWalker);
+
+    }
+
+    @Test
+    void is_TerraVoyager_Adventurer_true() {
+        int choice = 3;
+        Room startingRoom = new Room(new Floor(ElementType.FIRE),0,0,ElementType.FIRE,false);
+        AbstractAdventurerFactory factory = new AdventurerFactory();
+        Adventurer tv = factory.createAdventurer(choice,startingRoom);
+
+        assertTrue(tv instanceof TerraVoyager);
+
+    }
+
+    @Test
+    void is_ZypherRogue_Adventurer_true() {
+        int choice = 4;
+        Room startingRoom = new Room(new Floor(ElementType.FIRE),0,0,ElementType.FIRE,false);
+        AbstractAdventurerFactory factory = new AdventurerFactory();
+        Adventurer zr = factory.createAdventurer(choice,startingRoom);
+
+        assertTrue(zr instanceof ZypherRogue);
+
+    }
 }
