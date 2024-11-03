@@ -9,7 +9,7 @@ public class ExitCommand implements Command {
 
     @Override
     public boolean canExecute() {
-        return dungeon.adventurers.getFirst().room == dungeon.startingRoom;
+        return dungeon.adventurers.get(0).room == dungeon.startingRoom;
     }
 
     public String toString() {
