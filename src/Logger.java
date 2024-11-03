@@ -20,14 +20,15 @@ public class Logger implements Observer{
     Adventurer/Creature is defeated/removed
     Adventurer finds treasure (include type of treasure)
     */
-    List<Adventurer> adventurerList;
-    List<Creature> creatureList;
+    private static Logger logger_instance = null;
+    public List<Adventurer> adventurerList;
+    public List<Creature> creatureList;
     public int totalTreasureValue;
     public int adventurerActive;
     public int creaturesActive;
     public int turn;
     String file = "Logger-n.txt";
-    public Logger(List<Adventurer> adventurerList, List<Creature> creatureList, int totalTreasureValue, int adventurerActive, int creaturesActive, int turn){
+    private Logger(List<Adventurer> adventurerList, List<Creature> creatureList, int totalTreasureValue, int adventurerActive, int creaturesActive, int turn){
         this.adventurerList = adventurerList;
         this.creatureList = creatureList;
         this.totalTreasureValue = totalTreasureValue;
@@ -142,8 +143,6 @@ public class Logger implements Observer{
         }
         return result;
     }
-
-
     public void logWriter(){
         appendToLog(file, "------------------------------\n");
         appendToLog(file,"Turn: " + turn + "\n");
@@ -178,9 +177,12 @@ public class Logger implements Observer{
         appendToLog(file,"\n");
 
     }
-
-
-
+    public static Logger getInstance(List<Adventurer> adventurerList, List<Creature> creatureList, int totalTreasureValue, int adventurerActive, int creaturesActive, int turn){
+        if(logger_instance == null){
+            logger_instance = new Logger(adventurerList,creatureList,totalTreasureValue,adventurerActive,creaturesActive,turn);
+        }
+        return logger_instance;
+    }
     @Override
     public void update(int turn, int totalTreasureValue) {
         this.turn = turn;

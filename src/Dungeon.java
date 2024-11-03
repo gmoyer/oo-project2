@@ -70,8 +70,9 @@ public class Dungeon implements Subject {
         remote.addCommand(new FightCommand(adventurer));
         remote.addCommand(new ExitCommand(this));
 
-        tracker = new Tracker(turn, totalTreasures,4, creatures.size(), adventurers, creatures);
-        logger = new Logger(adventurers, creatures, totalTreasures, 4, creatures.size(), turn);
+        tracker = Tracker.getInstance();
+        Tracker.initialize(turn,totalTreasures,adventurers.size(),creatures.size(),adventurers,creatures);
+        logger = Logger.getInstance(adventurers, creatures, totalTreasures, adventurers.size(), creatures.size(), turn);
         observers.add(tracker); //This is where observers get regisitered
         observers.add(logger);
 
